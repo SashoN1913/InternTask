@@ -18,7 +18,7 @@ public class Test
 		 }
 		 goats.add(0);
 		 //System.out.println(goats);
-        //Collections.addAll(goats, 0,  26,  10, 30, 7, 5, 4); // Теглата на козичките
+        //Collections.addAll(goats, 0,  26,  10, 30, 7, 5, 4);
         boolean flag = true; 
         int totalWeight = goats.stream().mapToInt(Integer::intValue).sum();
         int P = totalWeight / N; 
